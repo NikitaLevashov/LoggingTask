@@ -8,7 +8,7 @@ namespace LoggingTask.Implementations
 {
     internal class Algorithm : IAlgorithm
     {
-        private ILogger<Algorithm> log;
+        private readonly ILogger<Algorithm> log;
         private readonly IAlgorithm algorithm;
         private readonly ILoggerFactory loggerFactory;
 
